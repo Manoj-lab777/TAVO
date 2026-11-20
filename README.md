@@ -16,6 +16,12 @@
 
 ![Tavo home screen](screenshots/home.png)
 
+## Watch the trailer
+
+[![Tavo trailer — click to watch](screenshots/trailer.jpg)](https://github.com/Manoj-lab777/TAVO/releases/download/v1.0.0/Tavo-Trailer.mp4)
+
+<p align="center"><sub>70 seconds · every feature · <a href="https://github.com/Manoj-lab777/TAVO/releases/download/v1.0.0/Tavo-Trailer.mp4">download the trailer (MP4)</a></sub></p>
+
 ## Features
 
 - **Plays almost anything** — powered by mpv / FFmpeg, with hardware decoding.
@@ -32,6 +38,18 @@
 | Player | Sound | Customise |
 |---|---|---|
 | ![Player](screenshots/player.png) | ![Sound](screenshots/sound.png) | ![Customise](screenshots/customise.png) |
+
+### Stream, web videos, Live TV & radio
+
+| Paste a link | YouTube & web videos | Sound panel on a web video |
+|---|---|---|
+| ![Stream tab](screenshots/stream.jpg) | ![A YouTube video playing in Tavo](screenshots/web-video.jpg) | ![Sound panel](screenshots/sound-panel.jpg) |
+
+| Live TV | Internet radio | Ctrl + K |
+|---|---|---|
+| ![Live TV](screenshots/live-tv.jpg) | ![Radio](screenshots/radio.jpg) | ![Command palette](screenshots/command-palette.jpg) |
+
+<sub>Web video shown: *Big Buck Bunny* © Blender Foundation, [peach.blender.org](https://peach.blender.org), licensed under CC BY 3.0.</sub>
 
 ## Install
 
