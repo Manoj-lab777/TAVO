@@ -1,0 +1,109 @@
+TAVO — THIRD-PARTY NOTICES
+==========================
+
+Tavo is built on open-source software. This file lists the components that
+ship with Tavo (or that Tavo can download for you), who owns them, and the
+licence each one is under. The full licence texts are installed with Tavo in
+the "licenses" folder next to Tavo.exe. Licences of the Dart/Flutter packages
+are also listed in Tavo under Customise > About > Open-source licences.
+
+Nothing in Tavo's own licence limits the rights these licences give you.
+
+
+1. COMPONENTS INCLUDED WITH TAVO
+--------------------------------
+
+Flutter (engine and framework)
+  (c) 2014 The Flutter Authors. BSD 3-Clause licence.
+  https://github.com/flutter/flutter
+  The engine includes further components (Skia, ICU, HarfBuzz, FreeType,
+  zlib and others); their notices are shown in Tavo's licence page.
+
+libmpv (mpv player library) — libmpv-2.dll
+  (c) the mpv developers. GNU Lesser General Public License v2.1 or later
+  (built without GPL parts). Version: git 652a1dd (2023-09-24).
+  Source: https://github.com/mpv-player/mpv
+  Windows build used by Tavo: https://github.com/media-kit/libmpv-win32-video-build
+  (the exact build scripts and configuration are published there).
+
+FFmpeg (inside libmpv-2.dll)
+  (c) the FFmpeg developers. Built as LGPL (--disable-gpl --enable-version3),
+  so it is under the GNU Lesser General Public License v3 or later.
+  Version: n6.0. Source: https://ffmpeg.org/download.html
+  Libraries built into this FFmpeg/mpv binary include: mbed TLS (Apache-2.0),
+  dav1d (BSD-2-Clause), libjxl (BSD-3-Clause), libwebp (BSD-3-Clause),
+  oneVPL (MIT), libbs2b (MIT), zimg (WTFPL), libxml2 (MIT), SoX Resampler
+  (LGPL-2.1), Speex (BSD-3-Clause), libmysofa (BSD-3-Clause), shaderc
+  (Apache-2.0), FriBidi (LGPL-2.1), FreeType (FreeType License), AMD AMF
+  headers (MIT), NVIDIA codec headers (MIT).
+
+  Your rights under the LGPL: libmpv-2.dll is a separate, replaceable file.
+  You may replace it with your own build of mpv/FFmpeg, and you may
+  reverse-engineer Tavo as far as needed to debug such a replacement.
+  To get the corresponding source code, use the links above; if they ever
+  stop working, contact the author of Tavo and a copy will be provided.
+
+media_kit, media_kit_video, media_kit_libs_windows_video
+  (c) 2021 & onwards Hitesh Kumar Saini. MIT License.
+  https://github.com/media-kit/media-kit
+
+ANGLE (libEGL.dll, libGLESv2.dll)
+  (c) The ANGLE Project Authors. BSD 3-Clause licence.
+  https://chromium.googlesource.com/angle/angle
+
+SwiftShader (vk_swiftshader.dll) and the Vulkan loader (vulkan-1.dll)
+  (c) Google LLC / The Khronos Group Inc. Apache License 2.0.
+
+D3DCompiler (d3dcompiler_47.dll)
+  (c) Microsoft Corporation. Redistributed under Microsoft's redistribution
+  terms for the Windows SDK / DirectX runtime components.
+
+zlib (zlib.dll)
+  (c) 1995-2024 Jean-loup Gailly and Mark Adler. zlib License.
+
+Inter typeface (Inter, Inter Display)
+  (c) 2016 The Inter Project Authors (Rasmus Andersson).
+  SIL Open Font License 1.1. https://github.com/rsms/inter
+
+Tabler Icons (tabler-icons.ttf)
+  (c) 2020-2024 Paweł Kuna. MIT License. https://github.com/tabler/tabler-icons
+
+hls.js (packaged inside media_kit for its web version; not used on Windows)
+  (c) Dailymotion and the hls.js contributors. Apache License 2.0.
+  https://github.com/video-dev/hls.js
+
+Other Dart packages used by Tavo (file_picker, desktop_drop, image, crypto,
+wakelock_plus, package_info_plus and their dependencies) are under MIT or
+BSD licences; their full notices are in Tavo's licence page.
+
+
+2. COMPONENTS TAVO DOWNLOADS ONLY IF YOU ASK
+--------------------------------------------
+(Pressing "Set up" under Live TV > Stream > Web videos downloads
+these from their official GitHub releases and checks each file's SHA-256.)
+
+yt-dlp — The Unlicense (public domain). https://github.com/yt-dlp/yt-dlp
+Deno   — (c) 2018-2026 the Deno authors. MIT License. https://github.com/denoland/deno
+
+
+3. ONLINE SERVICES TAVO USES
+----------------------------
+
+iptv-org (channel lists for Live TV) — https://github.com/iptv-org/iptv
+  The lists are public-domain (The Unlicense). The channels themselves belong
+  to their broadcasters; Tavo does not host, re-stream or store any channel.
+
+Radio Browser (internet radio directory) — https://www.radio-browser.info
+  Community-maintained, free public API.
+
+Lorem Picsum (random wallpaper photos) — https://picsum.photos
+  Photos come from Unsplash under the Unsplash License.
+
+
+4. TRADEMARKS
+-------------
+
+YouTube, Netflix, Prime Video, Hotstar, JioCinema, SonyLIV, ZEE5, Vimeo,
+Dailymotion, Windows and other names mentioned in Tavo are trademarks of
+their owners. They are named only to describe what works or doesn't work in
+Tavo. Tavo is not affiliated with, endorsed by or sponsored by any of them.
