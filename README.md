@@ -54,9 +54,13 @@
 ## Install
 
 1. Download **[Tavo-Setup-1.0.0.exe](https://github.com/Manoj-lab777/TAVO/releases/latest/download/Tavo-Setup-1.0.0.exe)**.
-2. Run it. No administrator rights needed. Windows 10 or 11, 64-bit.
-3. Windows may show **"Windows protected your PC"** the first time, because the installer is new and not code-signed yet.
-   Click **More info → Run anyway**.
+2. If **Edge** says *"Tavo-Setup-1.0.0.exe isn't commonly downloaded"*: open the Downloads panel, click **⋯** next to the file →
+   **Keep** → **Show more** → **Keep anyway**. (In Chrome: **Keep** / **Download anyway**.)
+3. Run it. No administrator rights needed. Windows 10 or 11, 64-bit.
+4. Windows may show **"Windows protected your PC"** the first time. Click **More info → Run anyway**.
+
+> These warnings appear because Tavo is new and its installer isn't code-signed yet — not because anything is wrong.
+> You can check your download against the SHA-256 shown on the [release page](https://github.com/Manoj-lab777/TAVO/releases/latest).
 
 To play YouTube and other web videos: open **Live TV → Stream** and press **Set up** once. Tavo downloads two free helpers
 (yt-dlp and Deno, about 80 MB) from their official GitHub releases and checks each one against its published checksum.
